@@ -2,6 +2,7 @@ body {
   padding: 0;
   font-size: 10px;
   font-family: 'Inter', serif;
+  background-color: #edf2ec;
 }
 
 .scroll__disabled {
@@ -37,4 +38,50 @@ a {
 .container {
   margin: 0 auto;
   max-width: 1220px;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 42px;
+}
+
+.nav__list {
+  display: flex;
+  list-style-type: none;
+}
+
+h1 a {
+  font-family: 'Inika', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #000000;
+}
+
+.nav__item {
+  padding-right: 46px;
+}
+
+.nav__item:last-child {
+  padding-right: 0;
+}
+
+.nav__link {
+  font-family: 'Inika', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #010201;
+}
+
+.nav__link.active {
+  color: #e06733;
+}
+
+.nav__link:hover {
+  color: #e06733;
+  transition: 0.3s;
 }

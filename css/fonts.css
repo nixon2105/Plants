@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+
+  src: local('Inika'), url('/assets/fonts/Inika.woff') format('woff'),
+    url('/assets/fonts/Inika.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+
+  src: local('Inter'), url('/assets/fonts/Inter-Regular.woff') format('woff'),
+    url('/assets/fonts/Inter-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+
+  src: local('Inter'), url('/assets/fonts/Inter-SemiBold.woff') format('woff'),
+    url('/assets/fonts/Inter-SemiBold.woff2') format('woff2');
+}

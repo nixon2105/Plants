@@ -85,3 +85,56 @@ h1 a {
   color: #e06733;
   transition: 0.3s;
 }
+
+.intro {
+  display: flex;
+  margin-top: 90px;
+  justify-content: space-between;
+}
+
+.intro__info {
+  display: flex;
+  flex-direction: column;
+  max-width: 549px;
+}
+
+.info__title {
+  padding-top: 50px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 50px;
+  color: #717171;
+}
+
+.info__title span {
+  color: #499a18;
+}
+
+.info__descr {
+  padding-top: 46px;
+  max-width: 525px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: #636060;
+  word-spacing: 4px;
+}
+
+.info__btn {
+  padding-top: 47px;
+}
+
+.info__btn button {
+  width: 158px;
+  height: 44px;
+  text-transform: uppercase;
+  border: 2px solid #e06733;
+  border-radius: 10px;
+  background-color: inherit;
+  cursor: pointer;
+  font-size: 16px;
+}

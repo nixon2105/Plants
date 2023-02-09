@@ -96,6 +96,7 @@ h1 a {
   display: flex;
   flex-direction: column;
   max-width: 549px;
+  margin-bottom: 93px;
 }
 
 .info__title {
@@ -137,4 +138,49 @@ h1 a {
   background-color: inherit;
   cursor: pointer;
   font-size: 16px;
+}
+
+.section__about {
+  background-color: #fff;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+}
+
+.about__descr {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.descr__title {
+  width: 463px;
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 47px;
+  line-height: 52px;
+  color: #e06733;
+  margin-top: 158px;
+}
+
+.descr__title span {
+  color: #499a18;
+}
+
+.descr__text {
+  width: 605px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 30px;
+  color: #636060;
+  margin-top: 40px;
+}
+
+.about__img {
+  margin-left: 152px;
 }

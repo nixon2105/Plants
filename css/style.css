@@ -185,3 +185,49 @@ h1 a {
 .about__img {
   margin-left: 152px;
 }
+
+.service__control {
+  display: flex;
+  align-items: center;
+  margin-top: 42px;
+}
+
+.navigation__service {
+  display: flex;
+}
+
+.control__title {
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  width: 306px;
+
+  color: #499a18;
+}
+
+.control__navigation {
+  margin-right: 102px;
+}
+
+.navigation__service-item {
+  padding-right: 38px;
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  list-style-type: none;
+}
+
+.navigation__service-item:last-child {
+  padding-right: 0px;
+}
+
+.navigation__service-link {
+  padding: 12px 40px;
+  color: #e06733;
+  border: 1px solid #e06733;
+  border-radius: 5px;
+}
